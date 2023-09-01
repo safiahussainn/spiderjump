@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Spider Jump</title>
+	 <!-- style section sets the size and alignment of the canvas -->
+	<style>
+	  canvas{
+	      display: block;
+		  margin: 0 auto;
+	   }
+	   h1 {
+	     text-align: center;
+		}
+		</style>
+	  </head>
+	  <body style="background-color:#1c87c9;">
+	   <!-- creates a heading in the center which says Spider Jump -->
+	   <h1>Spider Jump</h1>
+	    <!-- setting dimensions of canvas -->
+	   <canvas id="canvas" width="650" height="600"></canvas> 
+	   <script src="spiderjump3.js"></script>
+	   <button onclick="restart()">restart</button>
+	   
+	   <script>
+	function restart() {
+ document.location.reload();
+	}
+		</script>
+	  </body>
+	 </html>
